@@ -1,0 +1,195 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    
+    background: repeating-linear-gradient(90deg, #E2C9D7, #E2C9D7 20px, #E9D2DF 0, #E9D2DF 40px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+
+}
+
+img 
+{
+    max-width: 100%;
+
+}
+
+#container
+{
+    width: 70%;  
+    margin: 20px auto;
+    background-color : rgba(255,255,255,0.5);   
+    border-left: 15px solid #b934a2;
+
+}
+
+/* mon en tête: bloc qui contient mon logo et l'adresse */
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff; 
+    height: 180px;
+    padding : 5px;
+    
+}
+
+/* Titre en majuscule */
+.purple 
+{
+    background-color:#b934a2;
+    color: #fff;
+    text-transform: uppercase;
+    /* border: none; */
+    font-weight: 200;
+}
+
+.purple2 {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    color: #b934a2;
+    
+
+}
+
+/* section 1 */
+.cupcake{
+    /* width: 75%;
+    margin: auto;
+    font-size: 14px; */
+    padding: 20px 90px;
+    font-size: 1.1em;
+
+}
+
+.titre 
+{
+    background-color: #fff;
+    color: #b934a2;
+    font-weight: 200;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+.ps {
+    margin-top: 25px;
+    font-size: 0.5em;
+}
+
+/* dans la  section 2  */
+.today 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Image 1 er cupcake */
+.cup1 
+{
+    width: 30%;
+    /* /* padding: 15px; * */
+    margin: 15px;
+}
+
+
+.october{
+    width: 20%;
+    padding: 10px;
+    margin: 0;
+
+    
+}
+
+/* bouton */
+.btn{
+    width:  115px;
+    padding: 5px;
+    margin: 0px;
+    /* margin-bottom: 5px; */
+    text-transform: uppercase;
+    border: none;
+}
+
+/* titre */
+.why {
+    margin:10px;
+    margin-right: 2%;
+    width: 70%;
+}
+
+.paragraphe {
+    font-size: 0.8em;
+    margin: 0px;
+}
+
+
+.cupcake2 {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px;
+    
+}
+
+figcaption {
+    background-color: rgba(234, 230, 230, 0.5);
+    padding: 10px;
+    min-height: 110px;
+}
+
+
+
+/* partie footer
+/*  footer*/
+/* footer {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* le tableau */
+/* table {
+    background-color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #e967d3b6;
+} */ 
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.tableau {
+    width: 45%;
+    margin: 2px;
+    
+}
+
+.odd{
+    background-color: #e967d3b6;
+    padding: 5px;
+
+}
+
+.even {
+    background-color: #fff;
+    padding: 5px;
+}
+
